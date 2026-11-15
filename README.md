@@ -225,7 +225,7 @@ exists; it does not mean every environment has been exercised end-to-end.
 | Camera and hand tracking | <img src="assets/badges/implemented.svg" height="18" alt="Implemented"> | MediaPipe hand landmarker, full skeleton, pinch press, drag/resize gestures, `look` and `watch` camera tools. Expanded gesture vocabulary is planned. |
 | Holographic HUD | <img src="assets/badges/implemented.svg" height="18" alt="Implemented"> | Boot sequence, reactor, orbits, blades/panels, themes, effects, diagnostics, keyboard controls, sanitised model-authored HTML. |
 | Windows launchers | <img src="assets/badges/implemented.svg" height="18" alt="Implemented"> | Visible, hidden, show, stop, and detached start modes with process ownership. |
-| Screenshot gallery | <img src="assets/badges/not-available.svg" height="18" alt="Not available"> | No screenshots are committed. A clearly labelled placeholder and capture checklist are provided. |
+| Screenshot gallery | <img src="assets/badges/partial.svg" height="18" alt="Partial"> | One real HUD capture is committed in `assets/screenshots/`. Additional views are listed in the capture checklist. |
 | Mobile phone control | <img src="assets/badges/not-available.svg" height="18" alt="Not available"> | No phone bridge or tool is present in the current architecture. Older descriptions that mention phone control should be treated as historical. |
 | Built-in image generation | <img src="assets/badges/not-available.svg" height="18" alt="Not available"> | Not a generated HUD tool in the current bridge. External tooling may add it, but it is not a built-in capability. |
 | Cloud analytics / remote telemetry | <img src="assets/badges/not-available.svg" height="18" alt="Not available"> | Deliberately excluded. Observability is local SQLite only. |
@@ -575,17 +575,14 @@ errors).
 
 ## Screenshots
 
-> **No application screenshots are committed yet.** The image below is an
-> explicit placeholder, not a fabricated screenshot. It will be replaced with
-> real captures from the running interface. The capture checklist lives in
-> [`assets/screenshots/README.md`](assets/screenshots/README.md).
-
 <div align="center">
-  <img src="assets/screenshot-placeholder.svg" width="82%" alt="Labeled placeholder for a future JARVIS screenshot">
+  <img src="assets/screenshots/jarvis-hud.png" width="82%" alt="JARVIS running in a Chrome window">
 </div>
 
-Planned captures: boot sequence, standby HUD, conversation, tool panel,
-diagnostics, hand tracking, systems snapshot, and a weather or Gmail panel.
+A real capture from the running interface. More views are listed in
+[`assets/screenshots/README.md`](assets/screenshots/README.md): boot sequence,
+conversation, tool panel, diagnostics, hand tracking, systems snapshot, and a
+weather or Gmail panel.
 
 ---
 
@@ -606,7 +603,7 @@ designed or queued, not shipped.
 | 7 | Advanced system monitoring, including battery notifications | **PLANNED** |
 | 8 | Expanded hand gestures beyond cursor and pinch | **IN PROGRESS** |
 | 9 | Broader automation capabilities with the same permission model | **PLANNED** |
-| 10 | Real screenshot and demo gallery | **PLANNED** |
+| 10 | Real screenshot and demo gallery | **IN PROGRESS** |
 
 ---
 

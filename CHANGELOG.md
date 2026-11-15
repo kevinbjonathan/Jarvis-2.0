@@ -47,6 +47,8 @@ describe the publication snapshot rather than a numbered release.
   documentation.
 - Animated README assets, feature icons, status badges, and a labeled screenshot
   placeholder.
+- The first real HUD screenshot, plus an updated checklist for the remaining
+  views.
 
 ### Changed
 

@@ -1,9 +1,14 @@
 # Screenshot capture checklist
 
-This directory is reserved for real screenshots of the running application. No
-screenshots are committed yet, and none should be fabricated.
+This directory holds real screenshots of the running application. Captures must
+come from an actual Chrome or Edge window after `npm start`; none should be
+fabricated.
 
-Capture these views from a real Chrome or Edge window after `npm start`:
+Committed captures:
+
+- `jarvis-hud.png` - the running holographic HUD.
+
+Capture these additional views:
 
 1. **Boot sequence** — the four-beat ignition overlay.
 2. **Standby HUD** — reactor, status rails, and the "Hey Jarvis" prompt.
@@ -14,7 +19,7 @@ Capture these views from a real Chrome or Edge window after `npm start`:
 7. **Systems** — the `/systems` snapshot or the `services_status` reply.
 8. **Weather or Gmail panel** — a fast-path result rendered on the HUD.
 
-Save files here as:
+Save additional files here as:
 
 ```text
 boot.png
@@ -27,6 +32,6 @@ systems.png
 weather-panel.png
 ```
 
-Then replace the placeholder block in `README.md` with a real gallery. Use PNG
-or WebP, keep each file under 2 MB, and confirm no API keys, email addresses,
-calendar events, tokens, or personal information are visible in the capture.
+Then add each capture to the gallery in `README.md`. Use PNG or WebP, keep each
+file under 2 MB, and confirm no API keys, email addresses, calendar events,
+tokens, or personal information are visible in the capture.
