@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="24" viewBox="0 0 108 24" role="img" aria-label="Planned">
+  <rect x=".5" y=".5" width="107" height="23" rx="6" fill="#07111b" stroke="#155e75"/>
+  <circle cx="14" cy="12" r="3" fill="#67e8f9"/>
+  <text x="25" y="15.5" fill="#a5f3fc" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4">PLANNED</text>
+</svg>
